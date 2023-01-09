@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title=".">
+
+        <EditTextPreference
+            app:key="."
+            app:title="."
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/generator_passwords">
+
+        <ListPreference
+            android:defaultValue="32"
+            android:entries="@array/ILoveLeksin"
+            android:entryValues="@array/ILoveLeksinTwiceGimme5ForThisSubject"
+            android:key="."
+            android:title="." />
+    </PreferenceCategory>
+
+</PreferenceScreen>
